@@ -184,13 +184,7 @@ const Wizard = React.memo(function Wizard(props) {
             <group rotation={[Math.PI / 2, 0, 0]} scale={0.01}>
               <group position={[83.707, -55.65, -482.33]} rotation={[Math.PI, 0, 0.002]} scale={0}>
                 
-                <mesh
-                  castShadow
-                  receiveShadow
-                  geometry={nodes['10'].geometry}
-                  material={materials.RoketMetalW_001}
-                  position={[-0.009, 0.433, 1.505]}
-                />
+
                 <mesh
                   castShadow
                   receiveShadow
