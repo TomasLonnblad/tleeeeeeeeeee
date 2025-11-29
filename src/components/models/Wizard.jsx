@@ -188,13 +188,6 @@ const Wizard = React.memo(function Wizard(props) {
                 <mesh
                   castShadow
                   receiveShadow
-                  geometry={nodes.Korpus_low_BlackMetall_001_0.geometry}
-                  material={materials.BlackMetall_001}
-                  position={[-0.009, 0.433, 1.505]}
-                />
-                <mesh
-                  castShadow
-                  receiveShadow
                   geometry={nodes.Korpus_low_DarkBlestyshka_001_0.geometry}
                   material={materials.DarkBlestyshka_001}
                   position={[-0.009, 0.433, 1.505]}
